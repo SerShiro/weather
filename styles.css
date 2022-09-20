@@ -1,0 +1,65 @@
+    body {
+        background-image: url(https://images.unsplash.com/photo-1587923623987-c7e4083beb23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .container {
+        background-image: linear-gradient(rgba(163, 157, 157, 0.3), rgba(0, 0, 0, 0.6));
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inputField {
+        margin-top: 30px;
+        padding: 15px;
+        border-radius: 25px;
+        font-size: 20px;
+        border: 3px solid #cdf3a2;
+        background-color: rgba(161, 148, 148, 0.3);
+        display: flex;
+    }
+
+    #cityCountry {
+        font-size: 45px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    #nowDate {
+        font-size: 25px;
+    }
+
+    #temperature {
+        font-size: 100px;
+        margin: 15px;
+        text-shadow: 7px 7px black;
+    }
+
+    #feelsLike, #condition, #minMax {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    #condition {
+        font-style: italic;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 19px;
+        font-size: 15px;
+        background-color: rgba(161, 148, 148, 0.3);
+        border: 3px solid #cdf3a2;
+        display: flex;
+    }
+
+    button:hover {
+        text-decoration: underline;
+    }
